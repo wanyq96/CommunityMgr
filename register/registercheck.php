@@ -10,6 +10,7 @@ mysqli_select_db($link,'engine');
 $username=$_POST['username'];
 $password=md5($_POST['password']);
 $name=$_POST['name'];
+$class=$_POST['class'];
 $email=$_POST['email'];
 $tel=$_POST['tel'];
 
